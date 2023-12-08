@@ -2,10 +2,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-    // int a=4;
-    // int *ptr=NULL;  //Initialize the pointer to null
-    // ptr=&a;
-    // cout<<*ptr;
+    int a=4;
+    int *ptr=0; //Initialize the pointer to null
+    ptr=&a;
+    cout<<*ptr;
 
     int *ptr=NULL;
     // ptr=(int *)malloc(sizeof(int));
@@ -16,5 +16,5 @@ int main(){
     // else{
     //     cout<<"Memory could be allocated ";
     // }
-    cout<<sizeof(NULL);   //size of NULL is 4bytes 
+    // cout<<sizeof(NULL);   //size of NULL is 4bytes 
 }

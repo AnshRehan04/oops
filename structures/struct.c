@@ -1,9 +1,10 @@
 #include <stdio.h>
-    struct <structure_name>{
-        data_Type member1;
-        data_Type member2;
-
-    }
+struct student{
+    int a;
+    int b;
+    float c;
+};
 int main(){
-
+    struct student st={2,34,2.4};
+    printf("%d %d %f",st.a,st.b,st.c);
 }

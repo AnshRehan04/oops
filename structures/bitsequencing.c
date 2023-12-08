@@ -12,10 +12,10 @@
 
 // }
 #include <stdio.h>
-#pragma pack(1)
+// #pragma pack(1)
 struct student{
-    int a:2;
-    char b;
+    int a;
+    double b;
     // float c;
 }var1;
 int main(){
