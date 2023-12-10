@@ -6,11 +6,11 @@ int adddigit(int n){
     int sum=0;
     while (n!=0)
     {
-        int rem=n%10;
-        sum=sum+rem;
-        n/=10;
+        int rem=n%10;//23%10=3  2
+        sum=sum+rem;//0+3=3  3+2=5
+        n/=10;//2 0
     }
-    return sum;
+    return sum; //5
 }
 int main(){
     int n;
